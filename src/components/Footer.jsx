@@ -37,7 +37,7 @@ const Footer = () => {
 
         {/* Instagram */}
         <a
-          href="https://instagram.com/farhanfrmndz"
+          href="https://instagram.com/farhanfrmnd"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-white transition"

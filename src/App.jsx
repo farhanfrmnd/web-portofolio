@@ -18,7 +18,7 @@ function App() {
   }, [selectedProject, selectedCertificates]);
   return (
     <div className="relative z-10">
-      {/* GLOBAL AURORA BACKGROUND */}
+      {/* Aurora Bg */}
       <div className="fixed inset-0 -z-10 pointer-events-none">
         <Aurora
           colorStops={["#144d53", "#307672", "#e4eddb"]}
@@ -186,7 +186,7 @@ function App() {
           {/* Projects */}
           {activeTab === "projects" && (
             <>
-              {/* Grid Project*/}
+              {/* Grid Projects */}
               {!selectedProject && (
                 <div className="mt-14 xl:w-2/3 lg:w-3/4 w-full mx-auto">
                   <div className="projects-box grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
@@ -206,7 +206,7 @@ function App() {
                         {/* Dark Overlay */}
                         <div className="absolute inset-0 bg-black/40 group-hover:bg-black/70 transition" />
 
-                        {/* ===== Content Bottom ===== */}
+                        {/* Content Bottom */}
                         <div
                           className="absolute bottom-0 left-0 w-full p-5
                 translate-y-6 group-hover:translate-y-0
@@ -282,7 +282,7 @@ function App() {
           {/* Experience */}
           {activeTab === "experience" && (
             <div className="mt-6 xl:w-2/3 lg:w-3/4 w-full mx-auto">
-              {/* ===== SUB MENU (FILTER) ===== */}
+              {/* Sub Menu */}
               <div className="flex justify-center mb-14">
                 <div className="bg-zinc-700 p-2 rounded-2xl flex gap-2 w-full max-w-md">
                   <button
@@ -309,13 +309,13 @@ function App() {
                 </div>
               </div>
 
-              {/* ===== TIMELINE ===== */}
+              {/* Timeline */}
               <div className="relative">
-                {/* LINE */}
+                {/* Line */}
                 <div className="absolute left-4 md:left-1/2 top-0 h-full w-[2px] bg-zinc-700"></div>
 
                 <div className="flex flex-col gap-14">
-                  {/* ================= WORK EXPERIENCE ================= */}
+                  {/* Work Experience */}
                   {expType === "work" && (
                     <>
                       <TimelineItem
@@ -326,7 +326,7 @@ function App() {
                     </>
                   )}
 
-                  {/* ================= ORGANIZATION EXPERIENCE ================= */}
+                  {/* Org Experience */}
                   {expType === "org" && (
                     <>
                       <TimelineItem
@@ -475,7 +475,7 @@ function App() {
 
         {/* Grid */}
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 xl:gap-16 place-items-center">
-          {/* LEFT SIDE */}
+          {/* Left */}
           <div className="flex flex-col gap-4 w-full max-w-md mx-auto">
             <div className="flex items-center gap-3 bg-zinc-800 p-4 rounded-xl hover:bg-zinc-700 transition">
               <i className="ri-mail-line ri-lg text-[#307672]"></i>
@@ -495,7 +495,7 @@ function App() {
             </div>
           </div>
 
-          {/* RIGHT SIDE */}
+          {/* Right */}
           <div className="w-full flex justify-center">
             <form
               action="https://formsubmit.co/farhanfarmanda6@gmail.com"
